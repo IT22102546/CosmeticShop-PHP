@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color:black;
+  }
+  
+  
+  .reg{
+    position:absolute;
+    left: 0;
+    margin-top:120px;
+    margin-left:450px;
+    background: rgb(1, 3, 4); /* Fallback color */
+    background: rgba(0.6, 0.6, 0.6, 0.4); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 45%;
+    padding: 20px;
+    border-radius:15px;
+   }
+  
+  
+  
+  
+  #back {
+  
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/bringing-to-life-the-beauty-salon-concept-with-3d-renderings-for-product-showcase-powerpoint-background_c5959ecf67__960_540.jpg");
+    min-height: 670px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #top{
+      font-family:"Times New Roman", Times, serif;
+      color: #ea73b6;
+      font-size:24px;
+  }
+  
+  #btn{
+    background-color: #ea73b6;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+    border-radius:15px;
+  }
+  .wdth{
+      height:35px;
+      width:250px;
+      background-color: #ddd;
+      border-style:none;
+      border-radius:15px;
+      alignment-adjust:middle;
+  }
+  
+
+  
+  

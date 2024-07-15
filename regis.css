@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color:black;
+  }
+  
+  
+  .reg{
+    position:absolute;
+    left: 0;
+    margin-top:30px;
+    margin-left:425px;
+    background: rgb(10, 5, 7); 
+    background: rgba(0, 0, 0, 0.6); 
+    color: #f1f1f1;
+    width: 45%;
+    padding: 20px;
+    border-radius:15px;
+   }
+  
+  
+  
+  
+  #back {
+  
+    background-image: url("https://m.media-amazon.com/images/I/71rRSZuBkcL.jpg");
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #top{
+      font-family:"Times New Roman", Times, serif;
+      color: #ea73b6;
+      font-size:24px;
+  }
+  
+  #btn{
+    background-color: #ea73b6;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+    border-radius:15px;
+  }
+  .wdth{
+      height:35px;
+      width:250px;
+      background-color: #ddd;
+      border-style:none;
+      border-radius:15px;
+      alignment-adjust:middle;
+  }
+  
+  

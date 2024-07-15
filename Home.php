@@ -22,7 +22,8 @@
                 </ul>
             </nav>
             <div class="header-buttons">
-                <a href="#" class="btn">Login</a>
+                <a href="Signup.php" class="btn">Sign Up</a>
+                <a href="Signin.php" class="btn">Login</a>
                 <a href="#" class="btn">Cart</a>
             </div>
         </div>
@@ -67,40 +68,78 @@
 
     <section class="categories">
         <div class="container">
-            <h2 class="section-title">Shop by Category</h2>
-            <div class="swiper-container category-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide category-item">
-                        <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Cleansers">
-                        <h3>Cleansers</h3>
-                    </div>
-                    <div class="swiper-slide category-item">
-                        <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Toners">
-                        <h3>Toners</h3>
-                    </div>
-                    <div class="swiper-slide category-item">
-                        <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Serums">
-                        <h3>Serums</h3>
-                    </div>
-                    <div class="swiper-slide category-item">
-                        <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Moisturizer">
-                        <h3>Moisturizer</h3>
-                    </div>
-                    <div class="swiper-slide category-item">
-                        <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Acne Treatment">
-                        <h3>Acne Treatment</h3>
-                    </div>
-                    <div class="swiper-slide category-item">
-                        <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Sunscreen">
-                        <h3>Sunscreen</h3>
-                    </div>
-
+            <h2 class="section-title">Shop by Categories</h2>
+            <div class="category-slider">
+                <div class="category-item">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Cleansers">
+                    <h3>Cleansers</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Toners">
+                    <h3>Toners</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Serums">
+                    <h3>Serums</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Moisturizer">
+                    <h3>Moisturizer</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Acne Treatment">
+                    <h3>Acne Treatment</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Sun Screen">
+                    <h3>Sun Screen</h3>
                 </div>
             </div>
         </div>
     </section>
-    
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="scripts.js"></script>
+    <section class="featured-content">
+    <div class="container">
+        <div class="featured-text">
+            <h2>Lorem Ipsum Dolor Sit Amet</h2>
+            <p>Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat.</p>
+        </div>
+        <div class="featured-image">
+            <img src="https://img.freepik.com/free-photo/front-view-woman-with-beauty-product-concept_23-2148734946.jpg" alt="Featured Image">
+        </div>
+    </div>
+</section>
+
+<section class="product-grid">
+    <div class="container">
+        <div class="product-item-grid">
+            <div class="product-item">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Product">
+                <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                <p>03/12/12</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+            <div class="product-item">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Product">
+                <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                <p>03/12/12</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+            <div class="product-item">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Product">
+                <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                <p>03/12/12</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+            <div class="product-item">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Product">
+                <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                <p>03/12/12</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+   
 </body>
 </html>
