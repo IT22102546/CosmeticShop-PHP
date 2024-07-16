@@ -71,8 +71,10 @@
             <h2 class="section-title">Shop by Categories</h2>
             <div class="category-slider">
                 <div class="category-item">
+                <a href="Customerclenser.php">
                     <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Cleansers">
                     <h3>Cleansers</h3>
+                </a>
                 </div>
                 <div class="category-item">
                     <img src="https://www.rollingstone.com/wp-content/uploads/2022/11/creme-de-la-mer-sale.png" alt="Toners">

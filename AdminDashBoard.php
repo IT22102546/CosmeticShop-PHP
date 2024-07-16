@@ -40,7 +40,7 @@
                     <div class="food-content">
                         <img src="https://i5.walmartimages.com/asr/d9931209-a11f-417c-843e-348870947f5d.33e9d0ede6a641d3586ad819d485e9de.jpeg" class="ad4to" />
                         <div class="food-actions">
-                            <input type="button" value="Add" onclick="window.location.href='koththuupdate.php'" class="btn" />
+                            <input type="button" value="Add" onclick="window.location.href='addClensers.php'" class="btn" />
                             <input type="button" value="Edit" onclick="window.location.href='koththu.php'" class="btn" />
                         </div>
                     </div>
