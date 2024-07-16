@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="About.php">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -140,6 +140,37 @@
     </div>
 </section>
 
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Skinvia is your go-to source for premium skin care products and treatments.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@skinvias.com</p>
+                <p>Phone: +94 76 5644323</p>
+            </div>
+        </div>
+    </footer>
    
 </body>
 </html>
