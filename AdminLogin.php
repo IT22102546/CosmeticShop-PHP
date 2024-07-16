@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="signIn.css"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="signin.js" type="text/javascript"></script>
+<script src="adminLogin.js" type="text/javascript"></script>
 <title>sign in</title>
 </head>
 	
@@ -11,8 +11,8 @@
 
 <div id="back" align="center">
 
-	<form id="frm" action="Signin.php" method="post" class="reg" >
-	<h3 id="top">Skinvia Signin</h3>
+	<form id="frm" action="AdminLogin.php" method="post" class="reg" >
+	<h3 id="top">Admin Signin</h3>
 	<label class="lbl"><b>User Name</b></label>
 	<br>
 	<input type="text" id="Uname" name="Usname" class="wdth" placeholder="Enter Your User Name" required="required">
@@ -53,14 +53,14 @@ session_start();
 		$password= isset($_POST['pass']) ? $_POST['pass']:"";
 		
 		 
-		$sql="SELECT * FROM customer WHERE U_name='$username' AND email='$email' AND password='$password'";		
+		$sql="SELECT * FROM admin WHERE U_name='$username' AND email='$email' AND password='$password'";		
 		$result=mysqli_query($conn,$sql);
 		
 		if(mysqli_num_rows($result)==1)
 		{
 			$_SESSION['Usname'] = $username;
 			
-			header("location:Home.php");
+			header("location:AdminDashBoard.php");
 		}
 		
 		else
