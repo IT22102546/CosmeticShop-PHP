@@ -88,7 +88,7 @@ if (mysqli_num_rows($result) > 0) {
             width: 100%;
             padding: 10px;
             border: none;
-            background-color: #c34c5c;
+            background-color: #27cb5b;
             color: white;
             font-size: 16px;
             border-radius: 4px;

@@ -43,7 +43,7 @@
         }
 
         table button {
-            background-color: #c34c5c;
+            background-color: #27cb5b;
             color: white;
             border: none;
             padding: 10px 20px;

@@ -15,13 +15,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 0 20px; 
 }
 
-.logo h1 {
-    margin: 0;
-    font-family: 'Georgia', serif;
-    font-size: 28px;
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0; 
+    height: 60px; 
+}
+
+.logo img {
+    height: 80px; 
+    width: auto; 
 }
 
 nav ul {
@@ -45,7 +51,7 @@ nav ul li a {
 .header-buttons .btn {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #d05368;
+    background-color:#27cb5b;
     color: #fff;
     border-radius: 5px;
     font-family: 'Helvetica Neue', sans-serif;
@@ -66,7 +72,7 @@ nav ul li a {
 .about-section h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #c34c5c;
+    color: #27cb5b;
     font-family: 'Georgia', serif;
 }
 
@@ -82,20 +88,20 @@ nav ul li a {
 
 .about-text h3 {
     font-size: 28px;
-    color: #c34c5c;
+    color: #27cb5b;
     margin-bottom: 10px;
     font-family: 'Georgia', serif;
 }
 
 .about-text p {
-    font-size: 14px; /* Adjusted font size */
+    font-size: 14px; 
     margin-bottom: 20px;
     font-family: 'Helvetica Neue', sans-serif;
 }
 
 .read-more {
     text-decoration: none;
-    color: #c34c5c;
+    color: #27cb5b;
     font-size: 16px;
     font-family: 'Helvetica Neue', sans-serif;
 }
@@ -117,7 +123,7 @@ nav ul li a {
 .services-section h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #c34c5c;
+    color: #27cb5b;
     font-family: 'Georgia', serif;
 }
 
@@ -139,13 +145,13 @@ nav ul li a {
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #d05368;
+    background-color: #27cb5b;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
 .service p {
-    font-size: 14px; /* Adjusted font size */
+    font-size: 14px; 
 }
 
 .additional-content {
@@ -161,7 +167,7 @@ nav ul li a {
 
 .additional-text h3 {
     font-size: 28px;
-    color: #c34c5c;
+    color: #27cb5b;
     margin-bottom: 10px;
     font-family: 'Georgia', serif;
 }

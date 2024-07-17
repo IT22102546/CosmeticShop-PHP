@@ -1,3 +1,7 @@
+<?php
+session_start();
+$isLoggedIn = isset($_SESSION['Usname']); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,7 +53,7 @@
 
         .btn {
             padding: 10px 20px;
-            background-color: #ff4081;
+            background-color: #27cb5b;
             color: white;
             border: none;
             cursor: pointer;
@@ -83,18 +87,18 @@
     <header>
         <div class="container header-container">
             <div class="logo">
-                <h1>Skinvia</h1>
+                <img src="Logo/logo.png">
             </div>
             <nav>
                 <ul>
-                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="<?php echo $isLoggedIn ? 'CusHome.php' : 'Home.php'; ?>">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="About.php">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-buttons">
-                <a href="#" class="btn">Cart</a>
+          
             </div>
         </div>
     </header>

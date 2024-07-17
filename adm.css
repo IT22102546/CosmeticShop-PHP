@@ -7,16 +7,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    padding: 15px 0;
-    border-bottom: 1px solid #eee;
+    padding: 0 20px; 
 }
 
-.logo h1 {
-    font-size: 2em;
-    color: #e0647a;
-    margin: 0;
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0; 
+    height: 60px; 
 }
+
+.logo img {
+    height: 80px; 
+    width: auto; 
+}
+
 
 nav ul {
     list-style: none;
@@ -34,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e0647a;
+    color: #27cb5b;
 }
 
 .header-buttons {
@@ -45,7 +50,7 @@ nav ul li a:hover {
 .header-buttons .btn {
     padding: 8px 15px;
     color: #fff;
-    background-color: #e0647a;
+    background-color: #27cb5b;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -53,7 +58,7 @@ nav ul li a:hover {
 }
 
 .header-buttons .btn:hover {
-    background-color: #d0536a;
+    background-color: #27cb5b;
 }
 
 #admin-panel {
@@ -69,7 +74,7 @@ nav ul li a:hover {
 
 .section-title {
     font-size: 1.5em;
-    color: #e0647a;
+    color: #27cb5b;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -110,7 +115,7 @@ nav ul li a:hover {
 .food-actions .btn {
     padding: 10px;
     color: #fff;
-    background-color: #e0647a;
+    background-color: #27cb5b;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -119,5 +124,5 @@ nav ul li a:hover {
 }
 
 .food-actions .btn:hover {
-    background-color: #d0536a;
+    background-color: #72eb98;
 }

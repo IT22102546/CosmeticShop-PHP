@@ -1,3 +1,9 @@
+<?php
+session_start();
+$isLoggedIn = isset($_SESSION['Usname']);
+$username = $isLoggedIn ? $_SESSION['Usname'] : '';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,19 +17,24 @@
     <header>
         <div class="container header-container">
             <div class="logo">
-            <img src="Logo/logo.png">
+                <img src="Logo/logo.png">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                 
+                    <li><a href="<?php echo $isLoggedIn ? 'CusHome.php' : 'Home.php'; ?>">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="About.php">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-buttons">
-                <a href="Signup.php" class="btn">Sign Up</a>
-                <a href="Signin.php" class="btn">Login</a>
+                <?php if ($isLoggedIn): ?>
+                    <li>Welcome, <?php echo htmlspecialchars($username); ?>!</li>
+                    <a href="logout.php" class="btn">Log Out</a>
+                <?php else: ?>
+                    <a href="login.php" class="btn">Log In</a>
+                <?php endif; ?>
             </div>
         </div>
     </header>
@@ -36,7 +47,7 @@
                 <a href="#" class="btn">Read more</a>
             </div>
             <div class="banner-image">
-            <img src="Logo/logo.jpg">
+                <img src="https://img.freepik.com/premium-photo/beautiful-woman-with-face-cream-skin-protection-skin-care-spa-young-female-holds-moisturizing-cream-smiling-natural-makeup_231834-968.jpg" alt="Beauty">
             </div>
         </div>
     </section>

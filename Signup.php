@@ -10,7 +10,7 @@
 <?php include 'connect.php'; ?>
 <div id="back" align="center">
     <form id="frm" action="configreg.php" method="post" class="reg">
-        <h3 id="top">Skinvia Registration</h3>
+        <h3 id="top">Owshadham Registration</h3>
         <label class="lbl"><b>First Name</b></label><br>
         <input type="text" id="fname" name="fname" class="wdth" placeholder="Enter Your First Name" required="required"><br><br>
         <label class="lbl"><b>Last Name</b></label><br>

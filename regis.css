@@ -39,12 +39,12 @@ body, html {
   }
   #top{
       font-family:"Times New Roman", Times, serif;
-      color: #ea73b6;
+      color: #27cb5b;
       font-size:24px;
   }
   
   #btn{
-    background-color: #ea73b6;
+    background-color: #27cb5b;
     color: white;
     padding: 16px 20px;
     border: none;
